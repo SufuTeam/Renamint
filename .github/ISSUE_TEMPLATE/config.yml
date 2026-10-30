@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: License recovery / 找回许可证
+    url: https://licenses.sufuapp.com/portal
+    about: Recover your key or manage activated Macs privately.
