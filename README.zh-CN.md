@@ -4,9 +4,9 @@
 <p align="center"><a href="https://renamint.com/">官网</a> · <a href="https://renamint.com/docs">使用文档</a> · <a href="https://renamint.com/cameras">设备兼容表</a> · <a href="README.md">English</a></p>
 
 <!-- release-status:start -->
-**Renamint 1.10.0 · Apple 芯片 Mac · macOS 26 或更新版本**
+**Renamint 1.12.2 · Apple 芯片 Mac · macOS 26 或更新版本**
 
-[下载 DMG 安装包](https://github.com/SufuTeam/Renamint/releases/download/v1.10.0/Renamint-1.10.0-arm64.dmg) · [版本说明与校验值](https://github.com/SufuTeam/Renamint/releases/tag/v1.10.0) · [所有版本](https://github.com/SufuTeam/Renamint/releases)
+[下载 DMG 安装包](https://github.com/SufuTeam/Renamint/releases/download/v1.12.2/Renamint-1.12.2-arm64.dmg) · [版本说明与校验值](https://github.com/SufuTeam/Renamint/releases/tag/v1.12.2) · [所有版本](https://github.com/SufuTeam/Renamint/releases)
 
 已完成 Developer ID 签名与 Apple 公证。内置 AI 模型另行下载，资源约 1.80 GB。
 <!-- release-status:end -->
@@ -25,6 +25,8 @@
 - **本地 AI 命名**：内置模型在本机分析，也可连接自己的 Ollama、LM Studio 或兼容视觉 API；外部服务按授权发送数据并可能单独收费。
 - **可复用模板**：组合日期、标题、原名、人物与序号，保留扩展名，在应用前检查冲突。
 - **预览与撤销**：比较新旧名称、编辑建议，按文件或批次撤销，并检查文件身份和路径。
+- **文件去重**：按完整内容识别相同照片视频，改过名字的副本也能找到。对比后选择保留，确认后移入废纸篓，每组至少保留一份。
+- **版本更新**：在 App 中检查 GitHub 正式版本并查看更新日志；自动检查可以关闭，下载交给浏览器处理，安装由你完成。
 - **文件夹监控 — Pro**：App 运行期间，让稳定的新增或修改素材进入工作区。
 - **可信文件夹自动应用 — Pro**：验证模板与 AI 设置后逐个文件夹开启，原地改名，操作历史可查。
 
@@ -79,6 +81,10 @@
 5. 已购买 Pro 时，在「设置 → 许可证」输入邮件中的激活码。
 
 连接相机会暂时切换到相机热点，上网连接可能中断；正常断开时尝试恢复原网络。传输与文件夹监控期间需要保持 App 运行。
+
+## 更新 Renamint
+
+下载最新 DMG，退出 Renamint，将新版拖入 Applications 替换原 App。现有素材库、模板、偏好与许可证保留。1.12.0 及以后版本可以从「设置 → 版本信息」或 App 菜单检查更新；更早版本请使用上方下载链接手动更新。
 
 ## 系统、格式与隐私
 

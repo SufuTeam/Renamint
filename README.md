@@ -4,9 +4,9 @@
 <p align="center"><a href="https://renamint.com/en/">Website</a> · <a href="https://renamint.com/en/docs">Guide</a> · <a href="https://renamint.com/en/cameras">Camera compatibility</a> · <a href="README.zh-CN.md">简体中文</a></p>
 
 <!-- release-status:start -->
-**Renamint 1.10.0 · Apple silicon · macOS 26 or later**
+**Renamint 1.12.2 · Apple silicon · macOS 26 or later**
 
-[Download the DMG](https://github.com/SufuTeam/Renamint/releases/download/v1.10.0/Renamint-1.10.0-arm64.dmg) · [Release notes and checksums](https://github.com/SufuTeam/Renamint/releases/tag/v1.10.0) · [All releases](https://github.com/SufuTeam/Renamint/releases)
+[Download the DMG](https://github.com/SufuTeam/Renamint/releases/download/v1.12.2/Renamint-1.12.2-arm64.dmg) · [Release notes and checksums](https://github.com/SufuTeam/Renamint/releases/tag/v1.12.2) · [All releases](https://github.com/SufuTeam/Renamint/releases)
 
 Signed with Developer ID and notarized by Apple. The built-in AI model downloads separately (approximately 1.80 GB).
 <!-- release-status:end -->
@@ -25,6 +25,8 @@ Import files from your Mac too. Use dates, descriptions, original names, confirm
 - **Local AI naming:** download the built-in model for on-device analysis, or connect your own Ollama, LM Studio, or compatible vision API. External services follow your permissions and may charge separately.
 - **Reusable templates:** combine dates, titles, original names, confirmed people, and sequence numbers. Preserve extensions and review conflicts before applying.
 - **Preview and undo:** compare proposed and original names, edit suggestions, and undo individual files or batches with identity and path checks.
+- **Duplicate media:** compare full file contents, review renamed copies side by side, and move selected duplicates to the Trash only after confirmation. Keep at least one copy per group.
+- **Release updates:** check official GitHub releases and read release notes in the app. Automatic checks can be turned off; downloads open in your browser and installation stays under your control.
 - **Watched folders — Pro:** bring stable new or changed media into the workspace while Renamint runs.
 - **Auto-apply — Pro:** opt in for each trusted folder after validating the template and AI settings. Automatic renames stay in that folder and remain visible in history.
 
@@ -79,6 +81,10 @@ The following are **not current supported features** and have no confirmed relea
 5. If you purchased Pro, enter the emailed key in Settings → License.
 
 Connecting a camera temporarily switches the Mac to its Wi-Fi hotspot, which may interrupt internet access. Normal disconnection attempts to restore the previous network. Keep the app running during transfers and folder monitoring.
+
+## Updating Renamint
+
+Download the latest DMG, quit Renamint, and replace the app in Applications. Existing library data, templates, preferences, and license are kept. Versions 1.12.0 and later can check for updates from Settings → About or the app menu; older versions can update using the download above.
 
 ## Compatibility and privacy
 
