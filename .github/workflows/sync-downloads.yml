@@ -1,0 +1,29 @@
+name: Sync latest website download
+
+on:
+  release:
+    types: [published, edited, released, deleted, unpublished]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: latest-website-download
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Check release synchronization rules
+        run: python3 -B -m unittest discover -s .github/scripts -p 'test_*.py'
+      - name: Verify installer and synchronize public download metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 -B .github/scripts/sync_downloads.py
