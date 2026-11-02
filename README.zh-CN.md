@@ -4,9 +4,9 @@
 <p align="center"><a href="https://renamint.com/">官网</a> · <a href="https://renamint.com/docs">使用文档</a> · <a href="https://renamint.com/cameras">设备兼容表</a> · <a href="README.md">English</a></p>
 
 <!-- release-status:start -->
-**Renamint 1.12.2 · Apple 芯片 Mac · macOS 26 或更新版本**
+**Renamint · 最新正式版 · Apple 芯片 Mac · macOS 26 或更新版本**
 
-[下载 DMG 安装包](https://github.com/SufuTeam/Renamint/releases/download/v1.12.2/Renamint-1.12.2-arm64.dmg) · [版本说明与校验值](https://github.com/SufuTeam/Renamint/releases/tag/v1.12.2) · [所有版本](https://github.com/SufuTeam/Renamint/releases)
+[下载 DMG 安装包](https://github.com/SufuTeam/Renamint/releases/latest/download/Renamint-arm64.dmg) · [版本说明与校验值](https://github.com/SufuTeam/Renamint/releases/latest) · [所有版本](https://github.com/SufuTeam/Renamint/releases)
 
 已完成 Developer ID 签名与 Apple 公证。内置 AI 模型另行下载，资源约 1.80 GB。
 <!-- release-status:end -->

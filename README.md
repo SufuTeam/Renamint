@@ -4,9 +4,9 @@
 <p align="center"><a href="https://renamint.com/en/">Website</a> · <a href="https://renamint.com/en/docs">Guide</a> · <a href="https://renamint.com/en/cameras">Camera compatibility</a> · <a href="README.zh-CN.md">简体中文</a></p>
 
 <!-- release-status:start -->
-**Renamint 1.12.2 · Apple silicon · macOS 26 or later**
+**Renamint · Latest release · Apple silicon · macOS 26 or later**
 
-[Download the DMG](https://github.com/SufuTeam/Renamint/releases/download/v1.12.2/Renamint-1.12.2-arm64.dmg) · [Release notes and checksums](https://github.com/SufuTeam/Renamint/releases/tag/v1.12.2) · [All releases](https://github.com/SufuTeam/Renamint/releases)
+[Download the DMG](https://github.com/SufuTeam/Renamint/releases/latest/download/Renamint-arm64.dmg) · [Release notes and checksums](https://github.com/SufuTeam/Renamint/releases/latest) · [All releases](https://github.com/SufuTeam/Renamint/releases)
 
 Signed with Developer ID and notarized by Apple. The built-in AI model downloads separately (approximately 1.80 GB).
 <!-- release-status:end -->
