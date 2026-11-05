@@ -15,7 +15,7 @@ Signed with Developer ID and notarized by Apple. The built-in AI model downloads
 
 Bring photos and videos from a compatible camera to your Mac over Wi-Fi, then turn camera filenames into names you can find again. Renamint combines camera browsing and downloads, local AI, reusable naming templates, and a workspace where you can preview changes before applying them.
 
-Import files from your Mac too. Use dates, descriptions, original names, confirmed people, and sequence numbers; organize files in place or into a destination on the same disk. Review every suggestion, apply a batch, and undo when the original path and file identity still allow it.
+Import files from your Mac too. Use dates, descriptions, original names, people names with Pro from 1.23.0, and sequence numbers; organize files in place or into a destination on the same disk. Review every suggestion, apply a batch, and undo when the original path and file identity still allow it.
 
 ## Key features
 
@@ -23,10 +23,12 @@ Import files from your Mac too. Use dates, descriptions, original names, confirm
 - **A connected workflow:** completed camera downloads can enter the naming workspace without automatically starting AI analysis.
 - **Transfer controls:** choose a destination, use date folders, inspect counts and byte progress, and retry incomplete downloads. Resume depends on the camera's response; existing same-name files are protected.
 - **Local AI naming:** download the built-in model for on-device analysis, or connect your own Ollama, LM Studio, or compatible vision API. External services follow your permissions and may charge separately.
-- **Reusable templates:** combine dates, titles, original names, confirmed people, and sequence numbers. Preserve extensions and review conflicts before applying.
+- **Reusable templates:** combine dates, titles, original names, and sequence numbers; people fields require Pro from 1.23.0. Preserve extensions and review conflicts before applying.
 - **Preview and undo:** compare proposed and original names, edit suggestions, and undo individual files or batches with identity and path checks.
 - **Duplicate media:** compare full file contents, review renamed copies side by side, and move selected duplicates to the Trash only after confirmation. Keep at least one copy per group.
 - **Release updates:** check official GitHub releases and read release notes in the app. Automatic checks can be turned off; downloads open in your browser and installation stays under your control.
+- **People — Pro from 1.23.0:** local face recognition, automatic matching with an adjustable threshold, a people library, person filters, and people names in filenames. Existing people data is retained.
+- **Progress styles — Pro from 1.23.0:** choose Line, Segments, or Matrix in General settings. Basic progress and appearance switching remain free.
 - **Watched folders — Pro:** bring stable new or changed media into the workspace while Renamint runs.
 - **Auto-apply — Pro:** opt in for each trusted folder after validating the template and AI settings. Automatic renames stay in that folder and remain visible in history.
 
@@ -64,9 +66,14 @@ The following are **not current supported features** and have no confirmed relea
 | Camera Wi-Fi browsing and downloads, on compatible devices | ✓ | ✓ |
 | Manual naming, templates, preview, and undo | ✓ | ✓ |
 | AI analyses | 50 per month | Unlimited |
+| Basic progress and System / Light / Dark appearance | ✓ | ✓ |
+| People recognition, matching, filters, and naming (from 1.23.0) | — | ✓ |
+| Progress-style selection (from 1.23.0) | — | ✓ |
 | Watched folders | — | ✓ |
 | Auto-apply in trusted folders | — | ✓ |
 | Active Macs per license | — | 2 |
+
+**Version scope:** 1.23.0 is currently in local testing; the public download remains 1.12.2. The new People and progress-style requirements apply from 1.23.0, and existing people data is retained.
 
 **One-time lifetime Pro: US$19.90 early bird through 2026.** New orders are US$29.90 from **January 1, 2027, 00:00 Asia/Shanghai (UTC+8)**. External AI provider fees are separate.
 
@@ -108,3 +115,4 @@ Include the app and macOS versions, steps to reproduce, and the camera model and
 This is the official distribution and feedback repository. It does not contain the proprietary app source. Third-party notices ship with the app. The modified AGPL Keygate server's complete corresponding source is available in [licensing](licensing/).
 
 © 2026 Sufu. Renamint. Camera brands belong to their respective owners; this project is not their official application.
+
