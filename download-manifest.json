@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "tag_name": "v1.12.2",
+  "tag_name": "v1.19.0",
   "draft": false,
   "prerelease": false,
-  "published_at": "2026-10-31T05:50:42Z",
-  "html_url": "https://github.com/SufuTeam/Renamint/releases/tag/v1.12.2",
+  "published_at": "2026-11-06T06:59:53Z",
+  "html_url": "https://github.com/SufuTeam/Renamint/releases/tag/v1.19.0",
   "latest_download_url": "https://github.com/SufuTeam/Renamint/releases/latest/download/Renamint-arm64.dmg",
-  "sha256": "c1e4bfccc1ffa1b7321514308b1937556f99b407f05198dfb8447fb43245c78f",
+  "sha256": "937dd2c53ffa9403fa77b646d88349113b3dedf88a3d19cd6cd0209d6595103c",
   "assets": [
     {
-      "name": "Renamint-1.12.2-arm64.dmg",
+      "name": "Renamint-1.19.0-arm64.dmg",
       "state": "uploaded",
-      "size": 15050438,
-      "browser_download_url": "https://github.com/SufuTeam/Renamint/releases/download/v1.12.2/Renamint-1.12.2-arm64.dmg"
+      "size": 16624334,
+      "browser_download_url": "https://github.com/SufuTeam/Renamint/releases/download/v1.19.0/Renamint-1.19.0-arm64.dmg"
     }
   ]
 }
