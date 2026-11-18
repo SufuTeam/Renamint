@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "tag_name": "v1.24.1",
+  "tag_name": "v1.24.2",
   "draft": false,
   "prerelease": false,
-  "published_at": "2026-11-18T05:49:21Z",
-  "html_url": "https://github.com/SufuTeam/Renamint/releases/tag/v1.24.1",
-  "body": "## 相机 Wi-Fi 连接\n\n- 首次连接相机时，允许 macOS 的定位请求，Renamint 即可在蓝牙配对后查找并加入相机 Wi-Fi。用同一台 Mac 再次连接时可沿用已有授权。\n- 定位权限不可用，或你选择手动连接时，Renamint 会直接显示相机的热点名称。在 Mac 的 Wi-Fi 菜单加入该网络，再点「已连接，继续」即可打开相机相册。\n- 已用 DJI Osmo Action 6 实测首次授权、再次自动连接和断开后恢复原 Wi-Fi。\n\n适用于运行 macOS 26 或更高版本的 Apple 芯片 Mac。退出 Renamint，打开 DMG，将 App 拖入「应用程序」完成更新。\n\n## Camera Wi-Fi connections\n\n- Allow location access when macOS first asks. After Bluetooth pairing, Renamint can find and join your camera’s Wi-Fi. You can reconnect using the permission you already granted.\n- If location access is unavailable or you choose to connect manually, Renamint shows the camera’s network name immediately. Join that network in your Mac’s Wi-Fi menu, then choose “I’ve connected, continue” to open the camera library.\n- Tested with a DJI Osmo Action 6, including first-time permission, automatic reconnection, and restoration of the previous Wi-Fi after disconnecting.\n\nFor Apple silicon Macs running macOS 26 or later. Quit Renamint, open the DMG, and drag the app into Applications to update.\n",
+  "published_at": "2026-11-18T07:08:14Z",
+  "html_url": "https://github.com/SufuTeam/Renamint/releases/tag/v1.24.2",
+  "body": "## 检查更新\n\n- 「检查更新」现在优先读取官网的版本清单。即使 GitHub 的共享接口暂时限流，也能查看最新正式版、更新说明和下载入口。\n- 官网清单暂不可用时，Renamint 会尝试官方 Releases API。两个来源都不可用时，可以从「设置 → 版本信息」直接打开官方发布页。\n- 「上次成功检查」显示最近一次取得版本信息的时间。\n\n旧版若提示「检查过于频繁」，可从官网下载此 DMG，退出 Renamint 后将新版拖入「应用程序」。适用于 Apple 芯片 Mac，最低系统为 macOS 26。\n\n## Checking for updates\n\n- Renamint now checks the same release list as the website. You can see the latest version, release notes, and installer even when the shared GitHub API quota is exhausted.\n- If the list is unavailable, Renamint tries the official Releases API. If both sources are unavailable, you can open the release page directly from Settings.\n- “Last successful check” shows when Renamint last retrieved release information.\n\nIf an older version says “Too many requests,” download this DMG from the website, quit Renamint, and drag the new app into Applications. Requires an Apple silicon Mac running macOS 26 or later.\n",
   "latest_download_url": "https://github.com/SufuTeam/Renamint/releases/latest/download/Renamint-arm64.dmg",
-  "sha256": "80a81b79e4d8c8fb45565aa2cf400b8d63db6ea43e1cb7a76f4ed85cd5b2e0b6",
+  "sha256": "7757c5baa575f40e4495e88e4448800ebdcf85b011a2f22003e394c1ae7c63f7",
   "assets": [
     {
-      "name": "Renamint-1.24.1-arm64.dmg",
+      "name": "Renamint-1.24.2-arm64.dmg",
       "state": "uploaded",
-      "size": 16922423,
-      "browser_download_url": "https://github.com/SufuTeam/Renamint/releases/download/v1.24.1/Renamint-1.24.1-arm64.dmg"
+      "size": 16935371,
+      "browser_download_url": "https://github.com/SufuTeam/Renamint/releases/download/v1.24.2/Renamint-1.24.2-arm64.dmg"
     }
   ]
 }
