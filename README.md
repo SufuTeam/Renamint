@@ -36,11 +36,11 @@ Import files from your Mac too. Use dates, descriptions, original names, people 
 
 ## Camera compatibility
 
-Status as of **October 31, 2026**. “Integrated” means an implementation exists, not that every listed camera has passed physical-device testing. Firmware and media formats affect availability.
+Status as of **November 18, 2026**. “Integrated” means an implementation exists, not that every listed camera has passed physical-device testing. Firmware and media formats affect availability.
 
 | Camera | Status | Current scope |
 | --- | --- | --- |
-| DJI Osmo Action 6 | Hardware verified | Camera library, photo/video preview, and original-file Wi-Fi downloads verified, including a completed transfer batch. |
+| DJI Osmo Action 6 | Hardware verified | Automatic Wi-Fi connection and return to the previous network verified on a Mac. Camera library browsing, photo and video previews, and original-file downloads also have hardware test coverage. |
 | DJI Osmo Action 2 / 3 / 4 / 5 Pro | Integrated · hardware testing pending | Osmo protocol integration and model recognition are present; Action 6 test results do not verify these models. |
 | DJI Osmo Pocket 3 / 4 / 4 Pro · Osmo Nano | Integrated · hardware testing pending | Wireless media paths are implemented; library access, downloads, and previews still need testing on each model. |
 | GoPro HERO9 / 10 / 11 / 12 / 13 Black · HERO11 Black Mini | Integrated · hardware testing pending | Pairing, Wi-Fi media lists, and original-file downloads are implemented with Open GoPro; no project-level GoPro hardware acceptance record yet. |
@@ -73,8 +73,6 @@ The following are **not current supported features** and have no confirmed relea
 | Auto-apply in trusted folders | — | ✓ |
 | Active Macs per license | — | 2 |
 
-**Version scope:** 1.23.0 is currently in local testing; the public download remains 1.12.2. The new People and progress-style requirements apply from 1.23.0, and existing people data is retained.
-
 **One-time lifetime Pro: US$19.90 early bird through 2026.** New orders are US$29.90 from **January 1, 2027, 00:00 Asia/Shanghai (UTC+8)**. External AI provider fees are separate.
 
 [Pricing and purchase](https://renamint.com/en/pricing) · [Recover a key or manage devices](https://licenses.sufuapp.com/portal)
@@ -87,7 +85,9 @@ The following are **not current supported features** and have no confirmed relea
 4. Choose a naming template, review suggestions, and confirm changes.
 5. If you purchased Pro, enter the emailed key in Settings → License.
 
-Connecting a camera temporarily switches the Mac to its Wi-Fi hotspot, which may interrupt internet access. Normal disconnection attempts to restore the previous network. Keep the app running during transfers and folder monitoring.
+Allow Location Services when macOS asks so Renamint can find and join the camera’s Wi-Fi. If location access is unavailable, join the network shown in Renamint from the Mac’s Wi-Fi menu, then choose “I’ve connected, continue.”
+
+When Renamint switches networks for you, disconnecting the camera lets it try to restore your previous Wi-Fi. Keep Renamint open during transfers and folder monitoring.
 
 ## Updating Renamint
 
