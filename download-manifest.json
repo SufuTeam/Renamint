@@ -5,6 +5,7 @@
   "prerelease": false,
   "published_at": "2026-11-18T05:49:21Z",
   "html_url": "https://github.com/SufuTeam/Renamint/releases/tag/v1.24.1",
+  "body": "## 相机 Wi-Fi 连接\n\n- 首次连接相机时，允许 macOS 的定位请求，Renamint 即可在蓝牙配对后查找并加入相机 Wi-Fi。用同一台 Mac 再次连接时可沿用已有授权。\n- 定位权限不可用，或你选择手动连接时，Renamint 会直接显示相机的热点名称。在 Mac 的 Wi-Fi 菜单加入该网络，再点「已连接，继续」即可打开相机相册。\n- 已用 DJI Osmo Action 6 实测首次授权、再次自动连接和断开后恢复原 Wi-Fi。\n\n适用于运行 macOS 26 或更高版本的 Apple 芯片 Mac。退出 Renamint，打开 DMG，将 App 拖入「应用程序」完成更新。\n\n## Camera Wi-Fi connections\n\n- Allow location access when macOS first asks. After Bluetooth pairing, Renamint can find and join your camera’s Wi-Fi. You can reconnect using the permission you already granted.\n- If location access is unavailable or you choose to connect manually, Renamint shows the camera’s network name immediately. Join that network in your Mac’s Wi-Fi menu, then choose “I’ve connected, continue” to open the camera library.\n- Tested with a DJI Osmo Action 6, including first-time permission, automatic reconnection, and restoration of the previous Wi-Fi after disconnecting.\n\nFor Apple silicon Macs running macOS 26 or later. Quit Renamint, open the DMG, and drag the app into Applications to update.\n",
   "latest_download_url": "https://github.com/SufuTeam/Renamint/releases/latest/download/Renamint-arm64.dmg",
   "sha256": "80a81b79e4d8c8fb45565aa2cf400b8d63db6ea43e1cb7a76f4ed85cd5b2e0b6",
   "assets": [
