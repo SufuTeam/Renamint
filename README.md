@@ -93,6 +93,8 @@ When Renamint switches networks for you, disconnecting the camera lets it try to
 
 Download the latest DMG, quit Renamint, and replace the app in Applications. Existing library data, templates, preferences, and license are kept. Versions 1.12.0 and later can check for updates from Settings → About or the app menu; older versions can update using the download above.
 
+If a previous version says “Too many requests,” install the latest DMG from the website once. Starting with 1.24.2, the app checks the same release list as the website.
+
 ## Compatibility and privacy
 
 - **Apple silicon Mac, macOS 26 or later.** No Intel installer is currently provided.

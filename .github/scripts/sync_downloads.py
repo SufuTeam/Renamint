@@ -97,6 +97,7 @@ def sync():
         manifest = {
             'schema_version': 1, 'tag_name': tag, 'draft': False, 'prerelease': False,
             'published_at': release['published_at'], 'html_url': release['html_url'],
+            'body': release.get('body') or '',
             'latest_download_url': f'{ROOT}/releases/latest/download/{ALIAS}',
             'sha256': expected,
             'assets': [{key: asset[key] for key in ['name', 'state', 'size', 'browser_download_url']}]
